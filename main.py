@@ -7,3 +7,9 @@ if __name__=="__main__":
         marque_vehicules[4]='Tesla'
         # affichage de la liste actualiser
         print(marque_vehicules)
+        # 3  creation d'une liste contenant des elements de 'marque_vehicules' dont les valeurs continnent 'a'
+        new_marque=[]
+        for i in marque_vehicules:
+            if 'a' in i:
+             new_marque.append(i)
+        print(new_marque)
