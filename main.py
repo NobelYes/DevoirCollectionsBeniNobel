@@ -13,3 +13,7 @@ if __name__=="__main__":
             if 'a' in i:
              new_marque.append(i)
         print(new_marque)
+        # 4  ajout d'un elt a la fin
+        new_marque.append('Fiat')  
+        # verification dans la liste
+        print(new_marque)
