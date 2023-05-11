@@ -25,4 +25,6 @@ if __name__=="__main__":
         num = 3
         i = num - 1  #L'index de l'elt num 3 sera égal à 2 .
         del new_marque[i] #Suppression de l'élt à l'index 2 .
+        # 7 Suppression l'élément à l’index numéro 2
+        del new_marque[2]
         
