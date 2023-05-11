@@ -21,3 +21,8 @@ if __name__=="__main__":
         new_elt_on_index_2 = 'Lamborgini'
         new_marque.insert(2, new_elt_on_index_2)
         print(new_marque)
+        # 6 Suppression de l' élément no 3
+        num = 3
+        i = num - 1  #L'index de l'elt num 3 sera égal à 2 .
+        del new_marque[i] #Suppression de l'élt à l'index 2 .
+        
