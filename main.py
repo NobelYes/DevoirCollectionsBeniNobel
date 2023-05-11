@@ -35,6 +35,8 @@ if __name__=="__main__":
         print(new_marque) #affichage de la liste
         # 10 Vider la liste 
         new_marque.clear() #vider la liste avec la fonction clear
+        # 11 Suppression de lq liste
+        del new_marque
         
         
         
