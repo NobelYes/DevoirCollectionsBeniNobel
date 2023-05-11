@@ -17,3 +17,7 @@ if __name__=="__main__":
         new_marque.append('Fiat')  
         # verification dans la liste
         print(new_marque)
+        # 5  Ajout d'un elt à l'index num 2
+        new_elt_on_index_2 = 'Lamborgini'
+        new_marque.insert(2, new_elt_on_index_2)
+        print(new_marque)
