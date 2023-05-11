@@ -38,5 +38,5 @@ if __name__=="__main__":
         # 11 Suppression de lq liste
         del new_marque
         
-        
+        # Question II. 
         
