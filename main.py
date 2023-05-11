@@ -30,4 +30,7 @@ if __name__=="__main__":
         # 8 Ordonner la liste 
         new_marque.sort(reverse = False)
         print(new_marque) #Affichage de la liste pour la vérification
+        # 9 Afficher la liste au sens inverse (décroissant)
+        new_marque.reverse() #inverser les "élts de la liste au sens inverse
+        print(new_marque) #affichage de la liste
         
