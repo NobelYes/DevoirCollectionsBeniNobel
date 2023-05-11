@@ -1,7 +1,9 @@
 if __name__=="__main__":
     # Question 1
+    
         marque_vehicules=['Honda','Toyota','Mercedes','ferrari','lambourghini','Mazda','Citroen','Audi','BMW','Peugeot']
-    #    1 affichage des elements de la liste
+        
+        # 1 affichage des elements de la liste
         print(marque_vehicules)
         # 2 changer le contenu de l'element numero 5
         marque_vehicules[4]='Tesla'
@@ -38,5 +40,11 @@ if __name__=="__main__":
         # 11 Suppression de lq liste
         del new_marque
         
-        # Question II. 
+        
+    # Question II. 
+    
+        tuple = 1,5,7,3,8,3,15,36,2,6 #initialisation de la tuple
+        print(tuple)
+        
+        # 1 
         
