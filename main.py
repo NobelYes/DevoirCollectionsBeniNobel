@@ -27,4 +27,7 @@ if __name__=="__main__":
         del new_marque[i] #Suppression de l'élt à l'index 2 .
         # 7 Suppression l'élément à l’index numéro 2
         del new_marque[2]
+        # 8 Ordonner la liste 
+        new_marque.sort(reverse = False)
+        print(new_marque) #Affichage de la liste pour la vérification
         
