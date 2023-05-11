@@ -33,4 +33,8 @@ if __name__=="__main__":
         # 9 Afficher la liste au sens inverse (décroissant)
         new_marque.reverse() #inverser les "élts de la liste au sens inverse
         print(new_marque) #affichage de la liste
+        # 10 Vider la liste 
+        new_marque.clear() #vider la liste avec la fonction clear
+        
+        
         
