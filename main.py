@@ -138,5 +138,8 @@ if __name__=="__main__":
         # 6 Afficher l'élément à la clé numéro 5 
         print("\nL'élément de la clé numéro 5 est :",dictionnaire["Tel"])
         
+        # 7 Ajouter un nouvel élément 
+        dictionnaire["newkey"] = "newvalue"
+        print("\nLe dictionnaire après ajout : ",dictionnaire) #Affichage du dictionnaire pour la vérification
         
         
