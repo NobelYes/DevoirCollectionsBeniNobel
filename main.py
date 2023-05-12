@@ -85,7 +85,10 @@ if __name__=="__main__":
 
         cset = set(["noir", "rouge", "jaune", "blanc", "vert", "bleu", "rose", "gris", "violet", "orange"])
         
-
+        # 1 Afficher le set
+        print("Le set : ",cset)
+        
+        
         
         
         
