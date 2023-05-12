@@ -112,6 +112,11 @@ if __name__=="__main__":
                         "C": "Commune",
                         "Av": "Avenue"}
         
+        # 1 Afficher le dictionnaire : 
+        print("Dictionnaire :")
+        print(dictionnaire)
+        
+        # 
         
         
         
