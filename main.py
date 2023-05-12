@@ -81,6 +81,11 @@ if __name__=="__main__":
         print("La nouvelle tuple est : ", tuple)
         
         
+    # Question III.
+
+        cset = set(["noir", "rouge", "jaune", "blanc", "vert", "bleu", "rose", "gris", "violet", "orange"])
+        
+
         
         
         
