@@ -77,6 +77,11 @@ if __name__=="__main__":
         tuple.insert(3, 24)
         print(tuple) #Affichage de la tuple pour la vérification
         
+        # 6 La nouvelle tuple :
+        print("La nouvelle tuple est : ", tuple)
+        
+        
+        
         
         
         
