@@ -125,6 +125,11 @@ if __name__=="__main__":
         print("Les valeurs : ")
         for value in dictionnaire.values():
             print(value)
+            
+        # 4 Afficher les clés et les valeurs sous le format : Clé : Valeur
+        print("\nClés et valeurs :")
+        for key, value in dictionnaire.items():
+            print(f"{key} : {value}")
         
         
         
