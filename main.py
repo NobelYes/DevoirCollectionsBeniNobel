@@ -59,7 +59,7 @@ if __name__=="__main__":
         tuple = 1,5,7,3,8,3,15,36,2,6 #initialisation de la tuple
         print(tuple)
         
-        # 1 Afficher le nombre de fois la valeur 3 apparait dans la tuple
-        print(tuple.count(3))
+        # 1 Afficher le nombre de fois que la valeur 3 apparait dans la tuple
+        print("Le chiffre 3 apparait ",tuple.count(3)," fois dans la liste")
 
-        # 
+        # 2 
