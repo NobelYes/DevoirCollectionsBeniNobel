@@ -62,4 +62,7 @@ if __name__=="__main__":
         # 1 Afficher le nombre de fois que la valeur 3 apparait dans la tuple
         print("Le chiffre 3 apparait ",tuple.count(3)," fois dans la liste")
 
-        # 2 
+        # 2 Afficher le contenu de l'élément numéro 5
+        print("L'élément numéro 5 de la tuple est :", tuple[4]) #Car il se trouve à l'index no 4 !
+        
+        
