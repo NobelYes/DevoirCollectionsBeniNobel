@@ -121,7 +121,10 @@ if __name__=="__main__":
         for key in dictionnaire.keys():
             print(key)
         
-
+        # 3 Afficher seulement les valeurs :
+        print("Les valeurs : ")
+        for value in dictionnaire.values():
+            print(value)
         
         
         
