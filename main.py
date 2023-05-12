@@ -69,7 +69,14 @@ if __name__=="__main__":
         tuple=sorted(tuple)
         print(tuple) #Affichage de la tuple pour la vérification
         
-        # 4 
+        # 4 Ajouter un élément à la fin de la tuple
+        tuple.append(20)
+        print(tuple) #Affichage de la tuple pour la vérification
+        
+        # 5 Ajouter un élément à l’index numéro 3
+        tuple.insert(3, 24)
+        print(tuple) #Affichage de la tuple pour la vérification
+        
         
         
         
