@@ -92,7 +92,9 @@ if __name__=="__main__":
         cset.add("mauve")
         print("Le set : ",cset) #Affichage du set pour la vérification
         
-
+        # 3 Supprimer un élément
+        cset.remove("orange")
+        print("Le nouveau set : ",cset) #Affichage du set pour la vérification
         
         
         
