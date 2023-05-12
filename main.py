@@ -116,7 +116,12 @@ if __name__=="__main__":
         print("Dictionnaire :")
         print(dictionnaire)
         
-        # 
+        # 2 Afficher seulement les clés :
+        print("Les Clés :")
+        for key in dictionnaire.keys():
+            print(key)
+        
+
         
         
         
