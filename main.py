@@ -130,6 +130,12 @@ if __name__=="__main__":
         print("\nClés et valeurs :")
         for key, value in dictionnaire.items():
             print(f"{key} : {value}")
+             
+        # 5 Supprimer l'élément à la clé numéro 2    
+        del dictionnaire["Pr"]
+        print("Le dictionnaire après suppression : ",dictionnaire) #Affichage du dictionnaire pour la vérification
+        
+        
         
         
         
