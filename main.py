@@ -96,6 +96,11 @@ if __name__=="__main__":
         cset.remove("orange")
         print("Le nouveau set : ",cset) #Affichage du set pour la vérification
         
+        # 4 Supprimer le set
+        del cset
+        
+        
+        
         
         
         
