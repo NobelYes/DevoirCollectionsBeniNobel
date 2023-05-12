@@ -99,7 +99,18 @@ if __name__=="__main__":
         # 4 Supprimer le set
         del cset
         
-        
+    # Question IV.
+
+        dictionnaire = {"N": "Nom",
+                        "Pr": "Prenom",
+                        "A": "Age",
+                        "S": "Sexe",
+                        "Ad": "Adresse",
+                        "Tel": "Téléphone",
+                        "Email": "Compte Email",
+                        "P": "Province",
+                        "C": "Commune",
+                        "Av": "Avenue"}
         
         
         
