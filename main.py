@@ -66,9 +66,10 @@ if __name__=="__main__":
         print("L'élément numéro 5 de la tuple est :", tuple[4]) #Car il se trouve à l'index no 4 !
         
         # 3 Ordonner la tuple
-        tuple_ordonnee=sorted(tuple)
-        print(tuple_ordonnee) #Affichage de la tuple pour la vérification
+        tuple=sorted(tuple)
+        print(tuple) #Affichage de la tuple pour la vérification
         
+        # 4 
         
         
         
