@@ -142,4 +142,10 @@ if __name__=="__main__":
         dictionnaire["newkey"] = "newvalue"
         print("\nLe dictionnaire après ajout : ",dictionnaire) #Affichage du dictionnaire pour la vérification
         
+        # 8 Créer une copie du dictionnaire
+        dictionnaire_copie = dictionnaire.copy()
+        print("\nLe dictionnaire copié : ",dictionnaire_copie) #Affichage de la copie du dictionnaire pour la vérification
+        
+        
+        
         
