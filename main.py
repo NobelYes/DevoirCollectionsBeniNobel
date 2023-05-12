@@ -146,6 +146,10 @@ if __name__=="__main__":
         dictionnaire_copie = dictionnaire.copy()
         print("\nLe dictionnaire copié : ",dictionnaire_copie) #Affichage de la copie du dictionnaire pour la vérification
         
-        
+        # 9 Afficher les nouveaux éléments
+        print("\nLes nouveaux éléments :")
+        for key, value in dictionnaire.items():            
+            if key not in dictionnaire_copie:            #Ici c'est pour quand on créera de nouveaux élts dans 'dictionnaire'
+                print(f"{key} : {value}")
         
         
