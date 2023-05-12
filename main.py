@@ -88,7 +88,11 @@ if __name__=="__main__":
         # 1 Afficher le set
         print("Le set : ",cset)
         
+        # 2 Ajout d'un élément au set 
+        cset.add("mauve")
+        print("Le set : ",cset) #Affichage du set pour la vérification
         
+
         
         
         
