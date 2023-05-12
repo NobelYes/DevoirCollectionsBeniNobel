@@ -135,7 +135,8 @@ if __name__=="__main__":
         del dictionnaire["Pr"]
         print("Le dictionnaire après suppression : ",dictionnaire) #Affichage du dictionnaire pour la vérification
         
-        
+        # 6 Afficher l'élément à la clé numéro 5 
+        print("\nL'élément de la clé numéro 5 est :",dictionnaire["Tel"])
         
         
         
